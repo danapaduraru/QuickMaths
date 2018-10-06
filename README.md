@@ -8,7 +8,8 @@
 - extra option: **reset averageTime and games count**
 - JavaSE-10
 
-### VIDEO [Click here](https://youtu.be/92l0S3JmUYI)
+### [Click here to see VIDEO](https://youtu.be/92l0S3JmUYI)
+
 
 ![alt text](https://image.ibb.co/cxfDTe/Capture.jpg)
 
