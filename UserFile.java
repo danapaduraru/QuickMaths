@@ -41,7 +41,7 @@ public class UserFile {
 	
 	public static void WriteToFile () throws IOException {
 		
-		BufferedWriter writer = null;
+	    BufferedWriter writer = null;
 	    File user_file = new File("D:/PROJECTS/Java/QuickMaths/user-file.txt");
 	    writer = new BufferedWriter(new FileWriter(user_file));
 	    
