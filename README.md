@@ -8,7 +8,8 @@
 - extra option: reset averageTime and games count
 - JavaSE-10
 
-[Click to see how the game works - VIDEO](https://youtu.be/92l0S3JmUYI)
+[Click here to see how the game works - VIDEO](https://youtu.be/92l0S3JmUYI)
+
 ![alt text](https://image.ibb.co/cxfDTe/Capture.jpg)
 
 ## If you want to play the game...
