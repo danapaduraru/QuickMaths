@@ -14,7 +14,10 @@
 
 ## If you want to play the game...
 
-- You need to change the absolute path to *user-file.txt* according to the place you saved the project
+- You need to change the absolute path to *user-file.txt* according to the place you saved the project here:
+  - line 25 in *QuickMaths.java*
+  - line 45 in *UserFile.java*
+- You can change the number of exercises in each round using the variable *exercise_count* in *Exercises.java* on line 62
 - The commands I use for running the application are:
 
 ```
