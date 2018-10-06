@@ -15,32 +15,32 @@ public class QuickMaths {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		ClearConsole();
-		System.out.println(" QUICK MATHS\n");
-	    System.out.println(" Welcome! This game will test how fast you add, substract and multiply numbers.");
-	    System.out.println(" You will practice with random numbers and we'll tell you the time in which you solved all the exercises.\n");
+	   ClearConsole();
+	   System.out.println(" QUICK MATHS\n");
+	   System.out.println(" Welcome! This game will test how fast you add, substract and multiply numbers.");
+	   System.out.println(" You will practice with random numbers and we'll tell you the time in which you solved all the exercises.\n");
 
-		Scanner sc = new Scanner(System.in);
+	   Scanner sc = new Scanner(System.in);
 		
-		File file = new File("D:\\PROJECTS\\Java\\QuickMaths\\user-file.txt");						
-		Scanner sc2 = new Scanner(file);
-		UserFile.ReadFromFile(sc2);
-		sc2.close();
+	   File file = new File("D:\\PROJECTS\\Java\\QuickMaths\\user-file.txt");						
+	   Scanner sc2 = new Scanner(file);
+	   UserFile.ReadFromFile(sc2);
+	   sc2.close();
 		
-		System.out.println();
-		System.out.println(" Welcome, "+ UserFile.Name + "!");
-		System.out.println(" GamesCount: " + UserFile.GamesCount);
-		System.out.println(" AvgTime: " + UserFile.TotalAvgTime);
-	    System.out.println();
-	    System.out.println(" 1 - Play");
-	    System.out.println(" 2 - Change nickname");
-	    System.out.println(" 3 - Reset score");
-	    System.out.println(" 4 - Exit game\n");
+	   System.out.println();
+	   System.out.println(" Welcome, "+ UserFile.Name + "!");
+	   System.out.println(" GamesCount: " + UserFile.GamesCount);
+	   System.out.println(" AvgTime: " + UserFile.TotalAvgTime);
+	   System.out.println();
+	   System.out.println(" 1 - Play");
+	   System.out.println(" 2 - Change nickname");
+	   System.out.println(" 3 - Reset score");
+	   System.out.println(" 4 - Exit game\n");
 	    
-	    int userOption;
-	    String input = "";
+	   int userOption;
+	   String input = "";
 	    
-	    while(true) 
+	   while(true) 
 	    {
 			input = sc.nextLine();
 			if(isOption(input)==true) {
@@ -213,7 +213,7 @@ public class QuickMaths {
 	
 	public static void Go() throws InterruptedException, IOException {
 		
-		ClearConsole();
+	    ClearConsole();
 	    System.out.println(3);
 	    Sleep();
 	    
