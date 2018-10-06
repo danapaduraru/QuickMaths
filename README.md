@@ -15,6 +15,7 @@
 
 ## If you want to play the game...
 
+- You can find the project in the archive *QuickMaths.7z*
 - You need to change the absolute path to *user-file.txt* according to the place you saved the project here:
   - line 25 in *QuickMaths.java*
   - line 45 in *UserFile.java*
